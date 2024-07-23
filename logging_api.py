@@ -21,7 +21,7 @@ class LoggerConfiguration:
         """
         log_file_path = Path(__file__).parent / filename
 
-        # Remove any existing handlers if already configured@genie559
+        # Remove any existing handlers if already configure
         for handler in logging.root.handlers[:]:
             logging.root.removeHandler(handler)
 
